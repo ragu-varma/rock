@@ -12,10 +12,15 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 
 
 public class Rock extends BaseClass {
+	private void test() {
+		launch();
+		enterUrl("https://www.facebook.com/");
+	}
 	
 		public static void main(String[] args) {
-			launch();
-			enterUrl("https://www.facebook.com/");
+			Rock r = new Rock();
+			r.test();
+			
 			
 			
 			
