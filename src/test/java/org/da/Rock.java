@@ -15,12 +15,15 @@ public class Rock extends BaseClass {
 	private void test() {
 		launch();
 		enterUrl("https://www.facebook.com/");
+		System.out.println("completed");
 	}
 	
 		public static void main(String[] args) {
+
 			Rock r = new Rock();
 			r.test();
 			
+
 			
 			
 			
