@@ -16,6 +16,7 @@ public class Rock extends BaseClass {
 		public static void main(String[] args) {
 			launch();
 			enterUrl("https://www.facebook.com/");
+			System.out.println("completed");
 			
 			
 			
